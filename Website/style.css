@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+header {
+	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bck.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul {
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li {
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	margin-right: 10px;
+	border: 1px solid #fff0;
+	border-radius: 50px;
+	transition: 0.6s ease;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.new a:hover {
+	background-color: #ff0;
+	color: #000;
+}
+
+.logo img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	width: 200px;
+}
+
+.topnav {
+	position: absolute;
+	top: 67%;
+	left: 51%;
+	transform: translate(-50%, -50%);
+	height: auto;
+	width: 200px;
+	padding: 6px;
+}
+
+.media img{
+	float: left;
+	height: auto;
+	width: 120px;
+	position: absolute;
+	top: 93%;
+	left: 4%;
+	transform: translate(-50%, -50%);
+}
+
+.main {
+	max-width: auto;
+	margin: auto;
+}
+
+html {
+	scroll-behavior: smooth;
+}
