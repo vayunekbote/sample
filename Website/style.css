@@ -12,6 +12,10 @@
 	font-family: "Montserrat";
 }
 
+body {
+	font-family: "Montserrat";
+}
+
 header {
 	background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(bck.jpg);
 	height: 100vh;
